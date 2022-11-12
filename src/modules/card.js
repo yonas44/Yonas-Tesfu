@@ -18,7 +18,7 @@ export const cardContainer = [
     ],
   },
   {
-    title: 'Artex-conference-website',
+    title: 'Artex-conference',
     languages: ['JavaScript', 'Bootstrap', 'CSS'],
     text: 'A conference website to display event program, featured speakers along with date of the event. Built with HTML, CSS and JavaScript.',
     Links: [
