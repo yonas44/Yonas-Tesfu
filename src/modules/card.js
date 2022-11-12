@@ -12,7 +12,10 @@ export const cardContainer = [
     title: 'Awesome_Books',
     languages: ['html', 'css', 'JavaScript'],
     text: 'An application built to create a list of books which can be added and removed as needed, built with HTML, CSS and JavaScript using SPA concept.',
-    Links: ['https://github.com/yonas44/Awesome-books_ES6', '#'],
+    Links: [
+      'https://github.com/yonas44/Awesome-books_ES6',
+      'https://yonas44.github.io/Awesome-books_ES6/',
+    ],
   },
   {
     title: 'Artex-conference-website',
