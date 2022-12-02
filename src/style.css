@@ -12,7 +12,6 @@ body {
   color: white;
   background-color: black;
   margin: 0 auto;
-  /* overflow-x: hidden; */
 }
 
 header {
@@ -206,7 +205,6 @@ header {
   left: 20px;
   text-shadow: 1px 3px 1px orange;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  /* top: 100px; */
   width: 100%;
   margin: 0 auto;
   font-size: 1.5rem;
@@ -218,14 +216,14 @@ header {
   margin: 80px auto 0 auto;
   padding: 30px 0;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
 }
 
 .cards {
   cursor: pointer;
   position: relative;
-  width: 300px;
+  flex: 1;
 }
 
 #project-pic {
@@ -277,7 +275,7 @@ header {
   }
 
   0% {
-    transform: translateY(-200px);
+    transform: translateY(-175px);
     margin-top: -50px;
     opacity: 0;
   }
@@ -290,7 +288,7 @@ header {
 @keyframes fade-out {
   100% {
     transform: translateY(-50px);
-    margin-top: -200px;
+    margin-top: -175px;
     opacity: 0;
   }
 }
@@ -321,10 +319,10 @@ header {
 }
 
 .modal-btn {
-  margin: 0 10px;
+  margin: 0 5px;
   text-decoration: none;
   color: white;
-  padding: 10px;
+  padding: 8px;
   border-radius: 15px;
   transition: all 0.3s;
   background-color: orange;
@@ -481,7 +479,7 @@ input[type='submit'] {
   }
 
   .projects {
-    height: 100vh;
+    min-height: 100vh;
     width: fit-content;
     margin-left: 170px;
   }
@@ -496,14 +494,13 @@ input[type='submit'] {
   }
 
   .projects-list {
-    flex-direction: row;
-    align-items: center;
+    margin-top: 20%;
     justify-content: space-around;
-    height: 100vh;
   }
 
   .cards {
-    width: 30%;
+    width: 40%;
+    flex: none;
   }
 
   .cards h3 {
@@ -512,7 +509,7 @@ input[type='submit'] {
   }
 
   .card-info span {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   #proj-info {

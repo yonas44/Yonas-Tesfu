@@ -4,6 +4,7 @@ import Profile from '../assets/images/profile-pic2.png';
 import Project1 from '../assets/images/todo.png';
 import Project2 from '../assets/images/awesome_books.png';
 import Project3 from '../assets/images/artex.png';
+import Project4 from '../assets/images/moviex.png';
 import { displayProjects } from './modules/displayProjects';
 import { displayMenu } from './modules/displayMenu';
 
@@ -12,7 +13,7 @@ const myProfilePic = new Image();
 myProfilePic.src = Profile;
 introPicture.appendChild(myProfilePic);
 const listOfProjects = document.querySelector('.projects-list');
-const projects = [Project1, Project2, Project3];
+const projects = [Project1, Project2, Project3, Project4];
 displayProjects(listOfProjects, projects);
 
 const navMenuOpen = document.querySelector('.nav-menu-open');

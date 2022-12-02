@@ -10,7 +10,7 @@ export const cardContainer = [
   },
   {
     title: 'Awesome_Books',
-    languages: ['html', 'css', 'JavaScript'],
+    languages: ['HTML', 'CSS', 'JavaScript'],
     text: 'An application built to create a list of books which can be added and removed as needed, built with HTML, CSS and JavaScript using SPA concept.',
     Links: ['https://github.com/yonas44/Awesome-books_ES6', '#'],
   },
@@ -21,6 +21,15 @@ export const cardContainer = [
     Links: [
       'https://github.com/yonas44/Artex-conference-website',
       'https://yonas44.github.io/Artex-conference-website/',
+    ],
+  },
+  {
+    title: 'MovieX',
+    languages: ['HTML', 'CSS', 'JavaScript'],
+    text: 'This is a movie application that lets users choose between different movies to watch based on the number of likes and comments. Built with ES6 and webpack',
+    Links: [
+      'https://github.com/Abdessittir/JavaScript-capstone',
+      'https://abdessittir.github.io/JavaScript-capstone/dist/',
     ],
   },
 ];
