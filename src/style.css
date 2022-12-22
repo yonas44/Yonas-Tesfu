@@ -194,8 +194,10 @@ header {
 }
 
 .projects {
+  display: flex;
+  flex-direction: column;
   position: relative;
-  padding: 50px 0;
+  padding: 50px 0 100px 0;
   background: rgb(39, 38, 38);
   font-family: 'Courier New', Courier, monospace;
 }
@@ -205,7 +207,6 @@ header {
   left: 20px;
   text-shadow: 1px 3px 1px orange;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  width: 100%;
   margin: 0 auto;
   font-size: 1.5rem;
   font-weight: 700;
@@ -223,20 +224,28 @@ header {
 .cards {
   cursor: pointer;
   position: relative;
-  flex: 1;
+  width: 450px;
 }
 
 #project-pic {
   background-size: cover;
   width: 100%;
-  height: 100%;
+  height: 250px;
   position: relative;
   z-index: 1;
+  display: flex;
+  transition: all 0.3s;
+  overflow: hidden;
 }
 
 #project-pic img {
-  width: 100%;
-  height: 100%;
+  margin-top: auto;
+  width: inherit;
+}
+
+#project-pic:hover {
+  transform: translate(-8px, -8px);
+  box-shadow: 6px 6px 2px orange;
 }
 
 #project-count {
@@ -331,6 +340,36 @@ header {
 .modal-btn:hover {
   background: white;
   color: black;
+}
+
+#more-projects {
+  position: relative;
+  margin: 0 auto;
+}
+
+#more {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 22px;
+}
+
+#more::before {
+  content: 'More projects..';
+  background-color: oran;
+  height: 100%;
+  border-bottom: 1px solid orange;
+  width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  color: orange;
+  transition: all 0.5s;
+  left: 0;
+  position: absolute;
+}
+
+#more:hover:before {
+  width: 100%;
 }
 
 .contacts {
@@ -480,13 +519,13 @@ input[type='submit'] {
 
   .projects {
     min-height: 100vh;
-    width: fit-content;
     margin-left: 170px;
   }
 
   .projects h2 {
     text-align: center;
     margin-top: 80px;
+    width: 100%;
     text-decoration: underline;
     font-size: 52px;
     text-shadow: 1px 4px 1px orange;
@@ -498,9 +537,8 @@ input[type='submit'] {
     justify-content: space-around;
   }
 
-  .cards {
-    width: 40%;
-    flex: none;
+  #project-pic {
+    height: initial;
   }
 
   .cards h3 {
