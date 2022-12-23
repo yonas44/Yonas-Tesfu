@@ -525,7 +525,7 @@ input[type='submit'] {
   .projects h2 {
     text-align: center;
     margin-top: 80px;
-    width: 100%;
+    width: 90%;
     text-decoration: underline;
     font-size: 52px;
     text-shadow: 1px 4px 1px orange;
