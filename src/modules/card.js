@@ -1,5 +1,23 @@
 export const cardContainer = [
   {
+    title: 'Blog_App',
+    languages: ['Ruby', 'RoR'],
+    text: 'This is an app which allows users to read peoples posts and comments and in addition allows them to add their posts and comment and also like others posts if they sign up. Built using Ruby on Rails and PostgreSQL',
+    Links: [
+      'https://github.com/yonas44/blog-app',
+      '#',
+    ],
+  },
+  {
+    title: 'Weather_App',
+    languages: ['React', 'Redux'],
+    text: 'This is an application that will allow users to look at weather of a country also allows them to see some up-to-date information about a country. Built with React and Redux.',
+    Links: [
+      'https://github.com/yonas44/my-weather_app',
+      'https://my-weather-app-q80f.onrender.com',
+    ],
+  },
+  {
     title: 'MovieX',
     languages: ['HTML', 'CSS', 'JavaScript'],
     text: 'This is a movie application that lets users choose between different movies to watch based on the number of likes and comments. Built with ES6 and webpack',

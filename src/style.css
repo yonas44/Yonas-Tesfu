@@ -203,14 +203,14 @@ header {
 #js {
   background-color: orange;
 }
-#bs {
-  background-color: purple;
-}
 #re {
   background-color: lightblue;
 }
 #rx {
   background-color: green;
+}
+#ru {
+  background-color: rgb(138, 5, 5);
 }
 
 .social-media-icons {

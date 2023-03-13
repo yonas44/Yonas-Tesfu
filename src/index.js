@@ -1,9 +1,11 @@
 import './style.css';
 import 'bootstrap';
 import Profile from '../assets/images/profile-pic2.png';
-import Project1 from '../assets/images/moviex.png';
-import Project2 from '../assets/images/todo.png';
-import Project3 from '../assets/images/bookstore.png';
+import Project1 from '../assets/images/blog2.png';
+import Project2 from '../assets/images/weather.png';
+import Project3 from '../assets/images/moviex.png';
+import Project4 from '../assets/images/todo.png';
+import Project5 from '../assets/images/bookstore.png';
 import { displayProjects } from './modules/displayProjects';
 import { displayMenu } from './modules/displayMenu';
 
@@ -12,7 +14,7 @@ const myProfilePic = new Image();
 myProfilePic.src = Profile;
 introPicture.appendChild(myProfilePic);
 const listOfProjects = document.querySelector('.projects-list');
-const projects = [Project1, Project2, Project3];
+const projects = [Project1, Project2, Project3, Project4, Project5];
 displayProjects(listOfProjects, projects);
 
 const navMenuOpen = document.querySelector('.nav-menu-open');
