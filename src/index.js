@@ -1,7 +1,7 @@
 import './style.css';
 import 'bootstrap';
 import Profile from '../assets/images/profile-pic2.png';
-import Project1 from '../assets/images/blog2.png';
+import Project1 from '../assets/images/budget.png';
 import Project2 from '../assets/images/weather.png';
 import Project3 from '../assets/images/moviex.png';
 import Project4 from '../assets/images/todo.png';

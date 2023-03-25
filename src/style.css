@@ -251,6 +251,8 @@ header {
   margin: 80px auto 0 auto;
   padding: 30px 0;
   display: flex;
+  gap: 35px;
+  justify-content: center !important;
   flex-wrap: wrap;
   align-items: center;
 }
@@ -259,7 +261,6 @@ header {
   cursor: pointer;
   position: relative;
   width: 450px;
-  margin: 0 auto;
 }
 
 #project-pic {
@@ -274,7 +275,8 @@ header {
 
 #project-pic img {
   margin-top: auto;
-  width: inherit;
+  height: 100%;
+  width: 100%;
 }
 
 #project-pic:hover {
@@ -572,7 +574,7 @@ input[type='submit'] {
   }
 
   #project-pic {
-    height: initial;
+    height: 250px;
   }
 
   .cards h3 {

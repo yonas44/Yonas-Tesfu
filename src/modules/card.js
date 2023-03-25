@@ -1,11 +1,11 @@
 export const cardContainer = [
   {
-    title: 'Blog_App',
+    title: 'Budget_app',
     languages: ['Ruby', 'RoR'],
-    text: 'This is an app which allows users to read peoples posts and comments and in addition allows them to add their posts and comment and also like others posts if they sign up. Built using Ruby on Rails and PostgreSQL',
+    text: 'This is an app that allows users to track their budget by keeping track of their transactions based on different catagories specified by the user. Built using Ruby on Rails and PostgreSQL',
     Links: [
-      'https://github.com/yonas44/blog-app',
-      '#',
+      'https://github.com/yonas44/Budget-app',
+      'https://budget-app-385w.onrender.com',
     ],
   },
   {
@@ -20,7 +20,7 @@ export const cardContainer = [
   {
     title: 'MovieX',
     languages: ['HTML', 'CSS', 'JavaScript'],
-    text: 'This is a movie application that lets users choose between different movies to watch based on the number of likes and comments. Built with ES6 and webpack',
+    text: 'This is a movie application that lets users choose between different movies to watch based on the number of likes and comments, they can add their own feedback as well. Built with ES6 and webpack',
     Links: [
       'https://github.com/Abdessittir/JavaScript-capstone',
       'https://abdessittir.github.io/JavaScript-capstone/dist/',
@@ -38,7 +38,7 @@ export const cardContainer = [
   {
     title: 'Bookstore_App',
     languages: ['React', 'Redux'],
-    text: 'An app that allows users to add and remove books, built with React and Redux following SPA concept.',
+    text: 'An app that allows users to add and remove books from a database using API, built with React and Redux following SPA concept.',
     Links: [
       'https://github.com/yonas44/bookstore-app',
       'https://react-book-store.onrender.com/',
